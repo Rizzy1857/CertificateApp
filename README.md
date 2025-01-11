@@ -3,8 +3,8 @@
 ## Git Commands
 
 ```
-git config --global user.name ""//Enter your Github username here
-git config --global user.email ""//Enter your Github email ID
+git config --global user.name "Rizzy1857"
+git config --global user.email "hrisheekeshpv@gmail.com"
 ```
 ## SSH Key setting
 
