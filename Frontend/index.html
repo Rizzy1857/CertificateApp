@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html>  
 
 <head>
   
@@ -20,7 +20,7 @@
     </div>
     <div style="text-align:center">
         <br /><br />
-        <img src="Logo.png" width="200" height="200">
+        <img src="Logo2.png" width="200" height="200">
         <br /><br /><br />
        
     </div>
@@ -40,8 +40,8 @@
                await fetch(`http://127.0.0.1:8000/view/${id}`)
                     .then(response => {
                         if (!response.ok) {
-                            alert(`Please check Cetificate ID ${id}`);
-                            throw new Error('Network response was not ok ' + response.statusText);
+                            alert(`Please check Cetificate ID you have provided: ${id}`);
+                            throw new Error('Network response was not ok! ' + response.statusText);
                         }
                        
                         return response.json();
